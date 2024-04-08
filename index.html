@@ -12,24 +12,8 @@
       color: white; 
     }
 
-    #snow {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url('snowee.gif'); 
-      background-size: cover;
-      z-index: 0; 
-      pointer-events: none; 
-      animation: snow-fall 20s linear infinite;
-    }
-
-    @keyframes snow-fall {
-      0% { background-position: 0 0; }
-      100% { background-position: 0 100%; }
-    }
-
+   
+   
     #content {
       position: relative;
       z-index: 1; 
@@ -41,7 +25,6 @@
   <div id="content">
     <div id="counter" style="text-align: center; font-size: 24px; margin-top: 100px;">Liczba odwiedzin: </div>
     <div id="image-container" style="text-align: center; margin-top: 20px;">
-      <img src="snow.gif" alt="Animowany obrazek" style="width: 200px;">
     </div>
     <div id="holiday-wishes" style="text-align: center; font-size: 36px; margin-top: 20px;">Wesołych Ferii!</div>
   </div>
